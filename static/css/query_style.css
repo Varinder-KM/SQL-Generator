@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.container{
+    padding: 0 160px;
+    width: 60%;
+}
+
+/* Reset default styles for input and button */
+input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.search-bar {
+    display: flex;
+    max-width: 500px;
+    margin: 15px auto;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+input {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 425px;
+}
+
+button {
+    background-color: #28a08c;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a6659;
+}
+
+.reslt{
+    
+    padding: 0px 15px;
+    background-color: #F3F6FC;
+    height: 450px;
+    border-radius: 8px;
+    font-weight: 500;
+    width: 90%;
+    overflow: auto;
+    font-size: 14px;
+    text-align: left;
+    box-shadow: inset 5px 5px 15px #0000002d, inset -5px -5px 15px #0000002d;
+}
+
+
+pre {
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}

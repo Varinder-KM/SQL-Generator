@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selection Input Boxes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+   
+    <div class="container">
+        <div id="logo">
+            <img src="{{url_for('static', filename='logo.png')}}" width="250px"/>
+        </div>
+        <form method="post" action="/connect">
+            <br>
+            <select class="box" id="selectionBox" name="db_type">
+                <option value="SQLite3">SQLite3</option>
+                <option value="PostgresSQL">PostgresSQL</option>
+                <option value="MySQL">MySQL</option>
+            </select>
+            <br>
+
+
+            <input type="text" id="host" style="display: none;" placeholder="hostname" name="host"><br>
+
+            <input type="text" id="user" style="display: none;" placeholder="username" name="user"><br>
+    
+            <input type="password" id="password" style="display: none;" placeholder="password" name="password"><br>
+
+            <input type="database" id="database" style="display: none;" placeholder="databasename" name="database"><br>
+
+            <input id='submit-btn' type="submit" value="Connect">
+        </form>
+    </div>
+  
+
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>
