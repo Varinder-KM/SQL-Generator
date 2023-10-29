@@ -1,4 +1,5 @@
 # SQL Generator
+![](https://github.com/Varinder-KM/SQL-Generator/blob/master/static/sql_generator.gif)
 ### Overview
 The SQL Generator is a powerful tool based on OpenAI's Large Language Model (LLM) that simplifies the process of generating SQL queries for databases. Whether you're working with SQLite3, MySQL, or PostgreSQL, this project allows users to input queries in plain language and automatically generates the corresponding SQL code.
 
